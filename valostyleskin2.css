@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Audiowide&family=Bayon&family=Bowlby+One+SC&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    height: 4000px;
+    background-color: #efe6dc;
+}
+
+#head {
+    height: 80px;
+    background-color: black;
+}
+
+header div{
+    display: flex;
+    color: white;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+#sections{
+    display: flex;
+    font-size: 24px;
+    padding-left: 40px;
+}
+#sections a {
+    text-decoration: none;
+    color: white;
+    padding: 17px 0;
+    padding-right: 20px;
+    font-family: Audiowide;
+}
+
+#logo {
+    font-size: 48px;
+    text-align: center;
+    font-family: Audiowide;
+}
+#riot {
+    padding-right: 40px;
+}
+#valol{
+    width: 50px;
+    height: 50px;
+    padding-right: 25px;
+}
+#riotg {
+    width: 150px;
+    height: 50px;
+}
+
+/*Skinpage*/
+#gunnav {
+    width: 1440px;
+    height: 61px;
+    background-color: rgb(66, 65, 65);
+}
+#guntypes {
+    height: 34px;
+    position: absolute;
+    top: 116px;
+    left: 271px;
+}
+
+#guntypes a{
+    font-size: 24px;
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#skintitle {
+    font-size: 64px;
+    font-family: Archivo Black;
+    padding: 112px 0  30px 188px;
+}
+
+/*SIDEARMS*/
+#sidearms {
+    width: 975px;
+    height: 511px;
+    padding-left: 278px;
+    padding-bottom: 200px;
+}
+
+#sidearms p {
+    font-size: 18px;
+    font-family: Bayon;
+    padding-left: 10px;
+}
+
+#sidearmsnav h1{
+    font-size: 48px;
+    font-family: Bayon;
+}
+#sidearmsnav button:nth-of-type(1){
+    width: 85px;
+}
+
+#sidearmsnav button{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 21px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Bayon;
+}
+
+#sidearmsnav {
+    width: 975px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sidearms1 div, #sidearms2 div {
+    width: 255px;
+    height: 144px;
+}
+
+#sidearmsnamebg1 div, #sidearmsnamebg2 div{
+    background-color: rgb(0, 0, 0);
+    width: 255px;
+    height: 28px;
+}
+
+#sidearms1 {
+    display: flex;
+    justify-content: space-between;
+}
+#classicbg img {
+    width: 130px;
+    height: 86px;
+    padding: 29px 62.5px;
+}
+#shortybg img {
+    width: 170px;
+    height: 54px;
+    padding: 45px 42.5px;
+}
+#frenzybg img {
+    width: 130px;
+    height: 91px;
+    padding: 26.5px 62px;
+}
+
+#sidearms2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+#ghostbg img{
+    width: 170px;
+    height: 54px;
+    padding: 45px 42px;
+}
+#sheriff img {
+    width: 170px;
+    height: 81px;
+    padding: 31.5px 42.5px;
+}
+
+#sidearmsnamebg1 {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+#sidearmsnamebg2 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*SMGs*/
+#SMGs {
+    width: 975px;
+    height: 259px;
+    padding-left: 278px;
+    padding-bottom: 200px;
+}
+
+#SMGs p {
+    font-size: 18px;
+    font-family: Bayon;
+    padding-left: 10px;
+}
+
+#smgnav h1{
+    font-size: 48px;
+    font-family: Bayon;
+}
+
+#smgnav button:nth-of-type(1){
+    width: 85px;
+}
+
+#smgnav button{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 21px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Bayon;
+}
+
+#smgnav {
+    width: 975px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#smgbg {
+    display: flex;
+    justify-content: space-between;
+}
+
+#smgbg div {
+    width: 345px;
+    height: 144px;
+}
+#stingerbg img {
+    width: 250px;
+    height: 100px;
+    padding: 22px 47.5px; 
+}
+#spectrebg img {
+    width: 250px;
+    height: 100px;
+    padding: 22px 47.5px; 
+}
+
+#smgnamebg div{
+    background-color: rgb(0, 0, 0);
+    width: 345px;
+    height: 28px;
+}
+
+#smgnamebg {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Shotguns*/
+#Shotgun {
+    width: 975px;
+    height: 259px;
+    padding-left: 278px;
+    padding-bottom: 200px;
+}
+
+#Shotgun p {
+    font-size: 18px;
+    font-family: Bayon;
+    padding-left: 10px;
+}
+
+#shotgunnav h1{
+    font-size: 48px;
+    font-family: Bayon;
+}
+
+#shotgunnav button:nth-of-type(1){
+    width: 85px;
+}
+
+#shotgunnav button{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 21px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Bayon;
+}
+
+#shotgunnav {
+    width: 975px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#shotgunbg {
+    display: flex;
+    justify-content: space-between;
+}
+
+#shotgunbg div {
+    width: 345px;
+    height: 144px;
+}
+#buckybg img {
+    width: 250px;
+    height: 60px;
+    padding: 42px 47.5px; 
+}
+#judgebg img {
+    width: 250px;
+    height: 85px;
+    padding: 29.5px 47.5px; 
+}
+
+#shotgunnamebg div{
+    background-color: rgb(0, 0, 0);
+    width: 345px;
+    height: 28px;
+}
+
+#shotgunnamebg {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Rifle*/
+#Rifle {
+    width: 975px;
+    height: 511px;
+    padding-left: 278px;
+    padding-bottom: 200px;
+}
+
+#Rifle p {
+    font-size: 18px;
+    font-family: Bayon;
+    padding-left: 10px;
+}
+
+#riflenav h1{
+    font-size: 48px;
+    font-family: Bayon;
+}
+
+#riflenav button:nth-of-type(1){
+    width: 85px;
+}
+
+#riflenav button{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 21px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Bayon;
+}
+
+#riflenav {
+    width: 975px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#riflebg1, #riflebg2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#riflebg1 div, #riflebg2 div{
+    width: 345px;
+    height: 144px;
+}
+#bulldogbg img, #guardianbg img, #phantombg img, #vandalbg img{
+    width: 250px;
+    height: 70px;
+    padding: 37px 47.5px; 
+}
+
+#riflenamebg1 div, #riflenamebg2 div    {
+    background-color: rgb(0, 0, 0);
+    width: 345px;
+    height: 28px;
+}
+
+#riflenamebg1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+#riflenamebg2 {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Sniper Rifle*/
+#Sniper {
+    width: 975px;
+    height: 511px;
+    padding-left: 278px;
+    padding-bottom: 200px;
+}
+
+#Sniper p {
+    font-size: 18px;
+    font-family: Bayon;
+    padding-left: 10px;
+}
+
+#snipernav h1{
+    font-size: 48px;
+    font-family: Bayon;
+}
+
+#snipernav button:nth-of-type(1){
+    width: 85px;
+}
+
+#snipernav button{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 21px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Bayon;
+}
+
+#snipernav {
+    width: 975px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sniperbg1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sniperbg2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sniperbg1 div, #sniperbg2 div{
+    width: 345px;
+    height: 144px;
+}
+#marshalbg img, #outlawbg img, #operatorbg img{
+    width: 280px;
+    height: 65px;
+    padding: 39.5px 32.5px; 
+}
+
+#snipernamebg1 div, #snipernamebg2 div    {
+    background-color: rgb(0, 0, 0);
+    width: 345px;
+    height: 28px;
+}
+
+#snipernamebg1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+#snipernamebg2 {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Machine Guns*/
+#Machine {
+    width: 975px;
+    height: 259px;
+    padding-left: 278px;
+    padding-bottom: 200px;
+}
+
+#Machine p {
+    font-size: 18px;
+    font-family: Bayon;
+    padding-left: 10px;
+}
+
+#machinenav h1{
+    font-size: 48px;
+    font-family: Bayon;
+}
+
+#machinenav button:nth-of-type(1){
+    width: 85px;
+}
+
+#machinenav button{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 21px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Bayon;
+}
+
+#machinenav {
+    width: 975px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#machinebg {
+    display: flex;
+    justify-content: space-between;
+}
+
+#machinebg div {
+    width: 345px;
+    height: 144px;
+}
+#aresbg img {
+    width: 250px;
+    height: 60px;
+    padding: 42px 47.5px; 
+}
+#odinbg img {
+    width: 270px;
+    height: 70px;
+    padding: 32px 37.5px; 
+}
+
+#machinenamebg div{
+    background-color: rgb(0, 0, 0);
+    width: 345px;
+    height: 28px;
+}
+
+#machinenamebg {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Melee*/
+#Melee {
+    width: 975px;
+    height: 511px;
+    padding-left: 278px;
+    padding-bottom: 200px;
+}
+
+#Melee p {
+    font-size: 18px;
+    font-family: Bayon;
+    padding-left: 10px;
+}
+
+#meleenav h1{
+    font-size: 48px;
+    font-family: Bayon;
+}
+
+#meleenav button:nth-of-type(1){
+    width: 85px;
+}
+
+#meleenav button{
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 21px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Bayon;
+}
+
+#meleenav {
+    width: 975px;
+    height: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#meleebg1, #meleebg2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#meleebg1 div, #meleebg2 div{
+    width: 345px;
+    height: 144px;
+}
+#meleesbg1 img, #meleesbg2 img, #meleesbg3 img, #meleesbg4 img{
+    width: 200px;
+    height: 90px;
+    padding: 27px 72.5px; 
+}
+
+#meleenamebg1 div, #meleenamebg2 div    {
+    background-color: rgb(0, 0, 0);
+    width: 345px;
+    height: 28px;
+}
+
+#meleenamebg1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+#meleenamebg2 {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

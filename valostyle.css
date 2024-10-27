@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Audiowide&family=Bayon&family=Bowlby+One+SC&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    height: 2900px;
+}
+
+#head {
+    height: 80px;
+    background-color: black;
+}
+
+header div{
+    display: flex;
+    color: white;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+#sections{
+    display: flex;
+    font-size: 24px;
+    padding-left: 40px;
+}
+#sections a {
+    text-decoration: none;
+    color: white;
+    padding: 17px 0;
+    padding-right: 20px;
+    font-family: Audiowide;
+}
+
+#logo {
+    font-size: 48px;
+    text-align: center;
+    font-family: Audiowide;
+}
+#riot {
+    padding-right: 40px;
+}
+#valol{
+    width: 50px;
+    height: 50px;
+    padding-right: 25px;
+}
+#riotg {
+    width: 150px;
+    height: 50px;
+}
+#banner {
+    position: relative;
+    color: white;
+    width: 545px;
+    height: 695px;
+}
+#banner img{
+    width: 1440px;
+    height: 695px;
+}
+
+#bannertxt {
+    width: 545px;
+    height: 305px;
+    position: absolute;
+    top: 340px;
+    left: 70px;
+    font-size: 48px;
+    font-family: Audiowide;
+}
+
+/*AGENTS*/
+
+#agentbg img {
+    width: 1440px;
+    height: 749px;
+    opacity: .2;
+}
+
+#rectangle {
+    width: 1146px;
+    height: 534px;
+    background-color: black;
+    opacity: .2;
+    position: absolute;
+    top: 910px;
+    left: 147px;
+
+}
+
+#agenttitle {
+    font-size: 64px;
+    position: absolute;
+    top: 830px;
+    left: 165px;
+    font-family: Bayon;
+}
+
+#agentbanner img{
+    width: 672px;
+    height: 459px;
+    position: absolute;
+    object-fit: cover;
+    top: 940px;
+    left: 165px;
+}
+
+#agentinfo p{
+    width: 367px;
+    height: 377px;
+    font-size: 24px;
+    position: absolute;
+    top: 1000px;
+    left: 865px;
+    font-family: Cabin;
+}
+
+#youragent {
+    font-size: 46px;
+    position: absolute;
+    top: 940px;
+    left: 865px;
+    font-family: Bowlby One SC;
+}
+
+#agentmore a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 1365px;
+    left: 1180px;
+    font-family: Bayon;
+}
+
+/*SKINS*/
+#homeskins {
+    width: 1065px;
+    height: 667px;
+    margin: 20px 187.5px;
+}
+
+#skinmore a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    position: absolute;
+    top: 1620px;
+    left: 1180px;
+    font-family: Bayon;
+}
+
+#skintitle p{
+    font-size: 64px;
+    font-family: Bayon;
+    width: 200px;
+    height: 90px;
+}
+
+#bundles{
+    width: 1065px;
+    height: 553px;
+}
+
+#bundles img{
+    width: 525px;
+    height: 270px;
+}
+
+/*MAPS*/
+
+#mapbg img{
+    width: 1440px;
+    height: 525px;
+    opacity: .2;
+}
+
+#mapbanner img {
+    width: 614px;
+    height: 405px;
+    position: absolute;
+    top: 2320px;
+    left: 630px;
+}
+
+#mapinfo p{
+    width: 428px;
+    height: 297px;
+    font-size: 26px;
+    position: absolute;
+    top: 2385px;
+    left: 188px;
+}
+
+#maptitle {
+    width: 429px;
+}
+
+#maptitle p{
+    font-size: 46px;
+    position: absolute;
+    top: 2325px;
+    left: 188px;
+    font-family: Bowlby One SC;
+}
+
+#mapmore a{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    position: absolute;
+    top: 2670px;
+    left: 555px;
+    font-family: Bayon;
+}
