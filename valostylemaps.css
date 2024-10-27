@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Audiowide&family=Bayon&family=Bowlby+One+SC&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    height: 7100px;
+}
+
+#head {
+    height: 80px;
+    background-color: black;
+}
+
+header div{
+    display: flex;
+    color: white;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+#sections{
+    display: flex;
+    font-size: 24px;
+    padding-left: 40px;
+}
+#sections a {
+    text-decoration: none;
+    color: white;
+    padding: 17px 0;
+    padding-right: 20px;
+    font-family: Audiowide;
+}
+
+#logo {
+    font-size: 48px;
+    text-align: center;
+    font-family: Audiowide;
+}
+#riot {
+    padding-right: 40px;
+}
+#valol{
+    width: 50px;
+    height: 50px;
+    padding-right: 25px;
+}
+#riotg {
+    width: 150px;
+    height: 50px;
+}
+
+/*MAPS*/
+#mapsbg {
+    background-color: #efe6dc;
+    width: 1440px;
+    height: 7100px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+}
+
+#maptitle {
+    font-size: 64px;
+    font-family: Archivo Black;
+    padding-left: 188px;
+    padding-top: 112px;
+}
+
+#mapnav {
+    width: 1440px;
+    height: 61px;
+    background-color: rgb(66, 65, 65);
+}
+#maptypes {
+    width: 794px;
+    height: 34px;
+    position: absolute;
+    top: 116px;
+    left: 323px;
+}
+
+#maptypes a{
+    font-size: 24px;
+    display: inline;
+    padding: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Maps Section*/
+#maps {
+    width: 893px;
+    height: 6638px;
+    padding-left: 273px;
+}
+
+#lotus, #pearl, #breeze, #bind, #haven, #ascent, #sunset, #fracture {
+    padding-bottom: 50px;
+} 
+
+#lotus p, #pearl p, #breeze p, #bind p, #haven p, #ascent p, #sunset p, #fracture p, #icebox p {
+    font-size: 48px;
+    font-family: Bayon;
+}
+
+#lotusbanner img, #pearlbanner img, #breezebanner img, #bindbanner img, #havenbanner img, #ascentbanner img, #sunsetbanner img, #fracturebanner img, #iceboxbanner img {
+    width: 893px;
+    height: 456px;
+}
+
+#lotusfeatures, #pearlfeatures, #breezefeatures, #bindfeatures, #havenfeatures, #ascentfeatures, #sunsetfeatures, #fracturefeatures, #iceboxfeatures {
+    width: 896px;
+    height: 150px;
+}
+
+#lotusfeatures img, #pearlfeatures img, #breezefeatures img, #bindfeatures img, #havenfeatures img, #ascentfeatures img, #sunsetfeatures img, #fracturefeatures img, #iceboxfeatures img {
+    width: 255px;
+    height: 150px;
+}
+
+#lotusfeatures img:nth-of-type(2), #pearlfeatures img:nth-of-type(2), #breezefeatures img:nth-of-type(2), #bindfeatures img:nth-of-type(2), #havenfeatures img:nth-of-type(2), #ascentfeatures img:nth-of-type(2), #sunsetfeatures img:nth-of-type(2), #fracturefeatures img:nth-of-type(2), #iceboxfeatures img:nth-of-type(2) {
+    padding: 0px 60px;
+}
+
+
+
+
